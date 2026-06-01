@@ -4,8 +4,7 @@ function Navbar() {
       {/* Hover Effect Styling */}
       
       <style>
-        {`
-        
+        {
           .nav-hover {
             transition: all 0.3s ease;
             border-radius: 8px;
