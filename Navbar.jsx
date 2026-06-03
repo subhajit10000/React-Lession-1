@@ -25,6 +25,7 @@ function Navbar() {
             transform: scale(1.2);
           }
         `}
+        
       </style>
 
       <nav
