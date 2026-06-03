@@ -24,6 +24,7 @@ function Content() {
       >
         Learn <span style={{ color: "Yellow", fontWeight: "bold" }}>MERN</span> Stack
       </h1>
+      
       <h2
         style={{
           position: "absolute",
