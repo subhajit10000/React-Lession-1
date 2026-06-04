@@ -2,7 +2,6 @@ function Navbar() {
   return (
     <>
       {/* Hover Effect Styling */}
-      
       <style>
         {
           .nav-hover {
