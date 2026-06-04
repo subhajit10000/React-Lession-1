@@ -3,7 +3,6 @@ import { useState } from "react";
 function Content() {
   // 1. Create a state to track if the button is being hovered
   const [isHovered, setIsHovered] = useState(false);
-
   return (
     <div style={{ position: "relative", width: "100%", height: "700px" }}>
       {/* Text Element Overlay */}
