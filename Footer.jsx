@@ -2,8 +2,7 @@ function Footer() {
     return (
         <div
             className="container-fluid"
-            style={{ backgroundColor: "#0b2b5f", color: "white" }}
-        >
+            style={{ backgroundColor: "#0b2b5f", color: "white" }}>
             
             <footer className="py-5 container">                
                 <div className="row">
