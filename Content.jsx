@@ -6,6 +6,7 @@ function Content() {
   return (
     <div style={{ position: "relative", width: "100%", height: "700px" }}>
       {/* Text Element Overlay */}
+      
       <h1
         style={{
           position: "absolute",
