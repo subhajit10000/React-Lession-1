@@ -115,14 +115,16 @@ function Navbar() {
             </ul>
 
             {/* Search Form */}
-            <form className="d-flex" role="search">
+            <form className="d-flex" role="search" onSubmit={(e) => e.preventDefault()}>
               <input
-                className="form-control me-2"
+                className="form-control me-2 bg-dark text-light border-secondary"
                 type="search"
-                placeholder="Search"
+                placeholder="Type to search..."
+                aria-label="Search"
+                value={query}
+                onChange={(e) => setQuery(e.target.value)}
               />
-
-              <button className="btn btn-outline-light" type="submit">
+              <button className="btn btn-outline-info" type="submit">
                 Search
               </button>
             </form>
