@@ -7,41 +7,41 @@ function Content() {
     <div style={{ position: "relative", width: "100%", height: "700px" }}>
       {/* Text Element Overlay */}
       
-      <h1
-        style={{
-          position: "absolute",
-          top: "38%",
-          left: "50%",
-          transform: "translate(-50%, -50%)",
-          color: "#ffffff",
-          fontSize: "3rem",
-          fontWeight: "bold",
-          fontFamily: "sans-serif",
-          textShadow: "2px 2px 8px rgba(0, 0, 0, 0.7)",
-          margin: 0,
-          zIndex: 1,
-        }}
-      >
-        Learn <span style={{ color: "Yellow", fontWeight: "bold" }}>MERN</span> Stack
-      </h1>
+<>
+  <h1 style={{
+    position: "absolute",
+    top: "38%",
+    left: "50%",
+    transform: "translate(-50%, -50%)",
+    color: "#ffffff",
+    fontSize: "clamp(2rem, 5vw, 3rem)",
+    fontWeight: "800",
+    fontFamily: "'Poppins', system-ui, sans-serif",
+    textShadow: "0 4px 12px rgba(0, 0, 0, 0.6)",
+    margin: 0,
+    zIndex: 10,
+    whiteSpace: "nowrap"
+  }}>
+    Learn <span style={{ color: "#FFD700" }}>MERN</span> Stack
+  </h1>
       
-      <h2
-        style={{
-          position: "absolute",
-          top: "46%",
-          left: "50%",
-          transform: "translate(-50%, -50%)",
-          color: "#ffffff",
-          fontSize: "1.5rem",
-          fontWeight: "normal",
-          fontFamily: "times new roman",
-          textShadow: "1px 1px 4px rgba(0, 0, 0, 0.7)",
-          margin: 0,
-          zIndex: 1,
-        }}
-      >
-        Master the Full-Stack Development
-      </h2>
+  <h2 style={{
+    position: "absolute",
+    top: "calc(38% + 4rem)",
+    left: "50%",
+    transform: "translate(-50%, -50%)",
+    color: "#f0f0f0",
+    fontSize: "clamp(1rem, 2.5vw, 1.5rem)",
+    fontWeight: "400",
+    fontFamily: "'Merriweather', Georgia, serif",
+    textShadow: "0 2px 6px rgba(0, 0, 0, 0.6)",
+    margin: 0,
+    zIndex: 10,
+    whiteSpace: "nowrap"
+  }}>
+    Master the Full-Stack Development
+  </h2>
+</>
       
       {/* Button with Hover Effect */}
       <button
