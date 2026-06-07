@@ -10,19 +10,19 @@ function Footer() {
                         <h5>Section</h5>
                         <ul className="nav flex-column">
                             <li className="nav-item mb-2">
-                                <a href="#" className="nav-link p-0 text-light">Home</a>
+                                <a href="/" className="nav-link p-0 text-light">Home</a>
                             </li>
                             <li className="nav-item mb-2">
-                                <a href="#" className="nav-link p-0 text-light">Features</a>
+                                <a href="/features" className="nav-link p-0 text-light">Features</a>
                             </li>
                             <li className="nav-item mb-2">
-                                <a href="#" className="nav-link p-0 text-light">Pricing</a>
+                                <a href="/pricing" className="nav-link p-0 text-light">Pricing</a>
                             </li>
                             <li className="nav-item mb-2">
-                                <a href="#" className="nav-link p-0 text-light">FAQs</a>
+                                <a href="/faqs" className="nav-link p-0 text-light">FAQs</a>
                             </li>
                             <li className="nav-item mb-2">
-                                <a href="#" className="nav-link p-0 text-light">About</a>
+                                <a href="/about" className="nav-link p-0 text-light">About</a>
                             </li>
                         </ul>
                     </div>
