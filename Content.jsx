@@ -45,32 +45,26 @@ function Content() {
       
       {/* Button with Hover Effect */}
       <button
-        // 2. Add event listeners to toggle the hover state
-        onMouseEnter={() => setIsHovered(true)}
-        onMouseLeave={() => setIsHovered(false)}
-        style={{
-          position: "absolute",
-          top: "56%",
-          left: "50%",
-          // 3. Dynamically alter the transform property so it scales nicely on hover
-          transform: isHovered 
-            ? "translate(-50%, -50%) scale(1.05)" 
-            : "translate(-50%, -50%) scale(1)",
-          // 4. Dynamically switch background color based on hover state
-          backgroundColor: isHovered ? "crimson" : "red",
-          color: "#ffffff",
-          border: "none",
-          padding: "10px 20px",
-          fontSize: "1.4rem",
-          fontWeight: "bold",
-          cursor: "pointer",
-          borderRadius: "15px",
-          zIndex: 1,
-          // 5. Add a smooth transition time so it doesn't snap abruptly
-          transition: "all 0.2s ease-in-out",
-        }}
-        
-      >
+  className="fancy-button"
+  style={{
+    position: "absolute",
+    top: "56%",
+    left: "50%",
+    transform: "translate(-50%, -50%)",
+    color: "#ffffff",
+    border: "none",
+    padding: "10px 20px",
+    fontSize: "1.4rem",
+    fontWeight: "bold",
+    cursor: "pointer",
+    borderRadius: "15px",
+    zIndex: 1,
+    backgroundColor: "red",
+    transition: "all 0.2s ease-in-out",
+  }}
+>
+  Click Me
+</button>
         Enroll Now
       </button>
 
