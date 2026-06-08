@@ -46,10 +46,12 @@ function Navbar() {
             React{" "}
             <span
               style={{
-                color: "black",
-                padding: "5px",
-                backgroundColor: "yellow",
+                color: "#000",
+                padding: "5px 12px",        // 5px top/bottom, 12px left/right looks better
+                backgroundColor: "#FFD60A", // hex is more consistent than "yellow"
                 borderRadius: "10px",
+                fontWeight: 600,
+                display: "inline-block"     // prevents weird line-height issues
               }}
             >
               Project
