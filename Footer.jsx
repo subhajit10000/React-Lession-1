@@ -31,21 +31,21 @@ function Footer() {
                     <div className="col-6 col-md-2 mb-3">
                         <h5>Section</h5>
                         <ul className="nav flex-column">
-                            <li className="nav-item mb-2">
-                                <a href="#" className="nav-link p-0 text-light">Home</a>
-                            </li>
-                            <li className="nav-item mb-2">
-                                <a href="#" className="nav-link p-0 text-light">Features</a>
-                            </li>
-                            <li className="nav-item mb-2">
-                                <a href="#" className="nav-link p-0 text-light">Pricing</a>
-                            </li>
-                            <li className="nav-item mb-2">
-                                <a href="#" className="nav-link p-0 text-light">FAQs</a>
-                            </li>
-                            <li className="nav-item mb-2">
-                                <a href="#" className="nav-link p-0 text-light">About</a>
-                            </li>
+                          <li className="nav-item mb-2">
+                            <a href="/" className="nav-link p-0 text-light active" aria-current="page">Home</a>
+                          </li>
+                          <li className="nav-item mb-2">
+                            <a href="/features" className="nav-link p-0 text-light">Features</a>
+                          </li>
+                          <li className="nav-item mb-2">
+                            <a href="/pricing" className="nav-link p-0 text-light">Pricing</a>
+                          </li>
+                          <li className="nav-item mb-2">
+                            <a href="/faqs" className="nav-link p-0 text-light">FAQs</a>
+                          </li>
+                          <li className="nav-item mb-2">
+                            <a href="/about" className="nav-link p-0 text-light">About</a>
+                          </li>
                         </ul>
                     </div>
 
