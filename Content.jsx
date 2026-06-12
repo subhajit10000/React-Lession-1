@@ -45,24 +45,26 @@ function Content() {
       
       {/* Button with Hover Effect */}
       <button
-  className="fancy-button"
-  style={{
-    position: "absolute",
-    top: "56%",
-    left: "50%",
-    transform: "translate(-50%, -50%)",
-    color: "#ffffff",
-    border: "none",
-    padding: "10px 20px",
-    fontSize: "1.4rem",
-    fontWeight: "bold",
-    cursor: "pointer",
-    borderRadius: "15px",
-    zIndex: 1,
-    backgroundColor: "red",
-    transition: "all 0.2s ease-in-out",
-  }}
+  class="fancy-button"
+  style="
+    position: absolute;
+    top: 56%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.4rem;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 15px;
+    z-index: 1;
+    background-color: red;
+    transition: all 0.2s ease-in-out;
+  "
 >
+  Click Me
+</button>
   Click Me
 </button>
         Enroll Now
